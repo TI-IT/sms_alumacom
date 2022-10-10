@@ -14,6 +14,9 @@ function Header() {
             </div>
           </div>
         </Link>
+        <Link to="/offer">
+          <button>Коммерческое предложение</button>
+        </Link>
 
         <div className="header__cart">
           <Link to="/cart" className="button button--cart">
@@ -51,9 +54,6 @@ function Header() {
           </Link>
         </div>
       </div>
-      <Link to="/offer">
-        <button>Коммерческое предложение</button>
-      </Link>
     </div>
   );
 }

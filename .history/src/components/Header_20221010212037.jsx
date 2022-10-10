@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import logoSVG from '../assets/img/logo_alumacom.svg';
+import btnKpSVG from '../assets/img/btn_kp.svg';
 
 function Header() {
   return (
@@ -51,9 +52,6 @@ function Header() {
           </Link>
         </div>
       </div>
-      <Link to="/offer">
-        <button>Коммерческое предложение</button>
-      </Link>
     </div>
   );
 }

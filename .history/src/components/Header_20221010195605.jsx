@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import logoSVG from '../assets/img/logo_alumacom.svg';
+import { Link } from 'react-router-dom'
+import logoSVG from '../assets/img/pizza-logo.svg'
 
 function Header() {
   return (
@@ -7,10 +7,10 @@ function Header() {
       <div className="container">
         <Link to="/">
           <div className="header__logo">
-            <img width="200" src={logoSVG} alt="Pizza logo" />
+            <img width="38" src={logoSVG} alt="Pizza logo" />
             <div>
-              <h1>SRM_ALUMACOM</h1>
-              <p>group</p>
+              <h1>React Pizza</h1>
+              <p>самая вкусная пицца во вселенной</p>
             </div>
           </div>
         </Link>
@@ -51,11 +51,8 @@ function Header() {
           </Link>
         </div>
       </div>
-      <Link to="/offer">
-        <button>Коммерческое предложение</button>
-      </Link>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header
