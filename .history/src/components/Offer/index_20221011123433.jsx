@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Offer.module.scss';
 
-const Offer = () => {
+const Offer = ({ name_product }) => {
   return (
     <div className={styles.root}>
-      <h1>Offer to Component</h1>
+      <h2>{name_product}</h2>
     </div>
   );
 };

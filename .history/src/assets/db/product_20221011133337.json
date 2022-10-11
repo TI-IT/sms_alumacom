@@ -1,0 +1,101 @@
+[
+  {
+    "id_product": 2,
+    "id_categori": "Фурнитура",
+    "finishing": "Алюминий",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": "1010 L-150",
+    "name_product": "Профиль зажимной \"Сали-Бейс\" L-150мм",
+    "unit": "шт.",
+    "price": 2140,
+    "image_url": "https://img.archiexpo.com.ru/images_ae/photo-mg/157112-12625640.jpgg"
+  },
+  {
+    "id_product": 3,
+    "id_categori": "Фурнитура",
+    "finishing": "Алюминий",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": "1010 L-200",
+    "name_product": "Профиль зажимной \"Сали-Бейс\" L-200мм",
+    "unit": "шт.",
+    "price": 2345,
+    "image_url": "https://img.archiexpo.com.ru/images_ae/photo-mg/157112-12625640.jpg"
+  },
+  {
+    "id_product": 4,
+    "id_categori": "Фурнитура",
+    "finishing": "Покраска по RAL 7024",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": 1010,
+    "name_product": "Крышка алюминиевая Сали-Бейс 1010 квадрат RAL 7024",
+    "unit": "мп",
+    "price": 900,
+    "image_url": "https://img.archiexpo.com.ru/images_ae/photo-mg/157112-12625538.jpg"
+  },
+  {
+    "id_product": 5,
+    "id_categori": "Фурнитура",
+    "finishing": "Покраска по RAL",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": 1010,
+    "name_product": "Крышка боковая Сали-Бейс 1010 квадрат RAL",
+    "unit": "шт.",
+    "price": 380,
+    "image_url": "https://www.grandline.ru/image/data/shop1c/29/73029.jpg"
+  },
+  {
+    "id_product": 6,
+    "id_categori": "Фурнитура",
+    "finishing": "Покраска по RAL",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": 1010,
+    "name_product": "Крышка алюминиевая Сали-Бейс 1010 квадрат RAL",
+    "unit": "мп",
+    "price": 1316,
+    "image_url": "https://img.archiexpo.com.ru/images_ae/photo-mg/157112-12625538.jpg"
+  },
+  {
+    "id_product": 7,
+    "id_categori": "Фурнитура",
+    "finishing": "Покраска по RAL 8017",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": 1010,
+    "name_product": "Крышка боковая Сали-Бейс 1010 квадрат RAL 8017",
+    "unit": "шт.",
+    "price": 380,
+    "image_url": "https://www.grandline.ru/image/data/shop1c/29/73029.jpg"
+  },
+  {
+    "id_product": 8,
+    "id_categori": "Фурнитура",
+    "finishing": "Алюминий",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": 1010,
+    "name_product": "Крышка алюминиевая Сали-Бейс 1010 квадрат Алюминий + покраска RAL",
+    "unit": "мп",
+    "price": 2100,
+    "image_url": "https://img.archiexpo.com.ru/images_ae/photo-mg/157112-12625538.jpg"
+  },
+  {
+    "id_product": 9,
+    "id_categori": "Фурнитура",
+    "finishing": "Нерж. полировка",
+    "id_suppliers": "ООО \"ПерилаГлавСнаб\"",
+    "vendor_code": "k277-6",
+    "name_product": "Комплект торцевого крепления несущего стекла (AISI 304)",
+    "unit": "шт.",
+    "price": 719,
+    "image_url": "https://www.perilaglavsnab.ru/upload/iblock/626/626ba06707573f574a2cdcc523dcf0ce.jpg"
+  },
+  {
+    "id_product": 10,
+    "id_categori": "Фурнитура",
+    "finishing": "Алюминий",
+    "id_suppliers": "ООО\"Салинокс гласс\"",
+    "vendor_code": 3070063,
+    "name_product": "Крышка алюминиевая Сали-Бейс 1010 овальный  RAL",
+    "unit": "м",
+    "price": 755,
+    "image_url": "https://img.archiexpo.com.ru/images_ae/photo-mg/157112-12625640.jpg"
+  }
+]
