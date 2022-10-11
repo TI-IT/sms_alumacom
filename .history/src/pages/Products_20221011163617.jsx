@@ -10,10 +10,9 @@ const Products = () => {
   const [isLoading, setIsLoading] = React.useState(true);
 
   //Загрузка один раз
-  //https://docs.google.com/spreadsheets/d/1_0YvrlfzzMiQbCwgm22-VJnBI-QvFsn3vlLvfPaDiZ0/edit#gid=1701508152
   React.useEffect(() => {
     fetch(
-      'https://script.google.com/macros/s/AKfycbyLbp0MTNgM-xatXa-8_lBokvAC-Cvabl3wUSQLQ77RsPr_csfDLEaVxnJqX_5_M5ygrA/exec',
+      'https://script.google.com/macros/s/AKfycbweG0UN4InNAnEY5NbtOXIUdecjD_SoYmflH-MgXe1GofPzXPdRsa7x4A35hrKY7Q3jyA/exec',
     )
       .then((res) => {
         return res.json();
@@ -25,17 +24,18 @@ const Products = () => {
     window.scrollTo(0, 0); // при первой загрузке скролит вверх
   }, []);
 
+  console.log();
   return (
     <div className="container">
       <div className="content__top">
         <Categories />
         <Sort />
       </div>
-      <h2 className="content__title">Все товары</h2>
+      <h2 className="content__title">Все пиццы</h2>
       <div className="content__items">
         {isLoading
           ? [...new Array(6)].map((_, index) => <Skeleton key={index} />)
-          : items.db.map((obj) => <ProductCard key={obj.id} {...obj} />)}
+          : items.map((obj) => <ProductCard key={obj.id} {...obj} />)}
       </div>
     </div>
   );

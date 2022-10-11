@@ -2,19 +2,16 @@ import React from 'react';
 
 import Categories from '../components/Categories';
 import Sort from '../components/Sort';
-import ProductCard from '../components/ProductCard';
+import PizzaBlock from '../components/PizzaBlock';
 import Skeleton from '../components/PizzaBlock/Skeleton';
 
-const Products = () => {
+const Home = () => {
   const [items, setItems] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(true);
 
   //Загрузка один раз
-  //https://docs.google.com/spreadsheets/d/1_0YvrlfzzMiQbCwgm22-VJnBI-QvFsn3vlLvfPaDiZ0/edit#gid=1701508152
   React.useEffect(() => {
-    fetch(
-      'https://script.google.com/macros/s/AKfycbyLbp0MTNgM-xatXa-8_lBokvAC-Cvabl3wUSQLQ77RsPr_csfDLEaVxnJqX_5_M5ygrA/exec',
-    )
+    fetch('https://63427733ba4478d4783c44ef.mockapi.io/items')
       .then((res) => {
         return res.json();
       })
@@ -24,21 +21,20 @@ const Products = () => {
       });
     window.scrollTo(0, 0); // при первой загрузке скролит вверх
   }, []);
-
   return (
     <div className="container">
       <div className="content__top">
         <Categories />
         <Sort />
       </div>
-      <h2 className="content__title">Все товары</h2>
+      <h2 className="content__title">Все пиццы</h2>
       <div className="content__items">
         {isLoading
           ? [...new Array(6)].map((_, index) => <Skeleton key={index} />)
-          : items.db.map((obj) => <ProductCard key={obj.id} {...obj} />)}
+          : items.map((obj) => <PizzaBlock key={obj.id} {...obj} />)}
       </div>
     </div>
   );
 };
 
-export default Products;
+export default Home;

@@ -10,7 +10,6 @@ const Products = () => {
   const [isLoading, setIsLoading] = React.useState(true);
 
   //Загрузка один раз
-  //https://docs.google.com/spreadsheets/d/1_0YvrlfzzMiQbCwgm22-VJnBI-QvFsn3vlLvfPaDiZ0/edit#gid=1701508152
   React.useEffect(() => {
     fetch(
       'https://script.google.com/macros/s/AKfycbyLbp0MTNgM-xatXa-8_lBokvAC-Cvabl3wUSQLQ77RsPr_csfDLEaVxnJqX_5_M5ygrA/exec',
