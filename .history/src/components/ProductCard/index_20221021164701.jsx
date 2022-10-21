@@ -16,8 +16,8 @@ function ProductCard({
   const [activeSize, setActivSize] = React.useState(0)
   const typeNames = ['тонкое', 'традиционное']
 
-  if (image_url === 'none' || !image_url) {
-    image_url = notImage
+  if (image_url == 'none') {
+    console.log(image_url)
   }
 
   return (

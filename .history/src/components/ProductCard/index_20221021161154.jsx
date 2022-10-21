@@ -1,8 +1,8 @@
 import React from 'react'
-import notImage from '../../assets/img/notImage.jpg'
 
 function ProductCard({
-  product_id,
+  products,
+  categories,
   category_id,
   finishing,
   suppliers_id,
@@ -16,16 +16,11 @@ function ProductCard({
   const [activeSize, setActivSize] = React.useState(0)
   const typeNames = ['тонкое', 'традиционное']
 
-  if (image_url === 'none' || !image_url) {
-    image_url = notImage
-  }
-
   return (
     <div className="pizza-block-wrapper">
       <div className="pizza-block">
         <h5 className="">{product_name}</h5>
         <img className="pizza-block__image" src={image_url} alt="product" />
-
         <div className="pizza-block__selector"></div>
         <div className="pizza-block__bottom">
           <div className="pizza-block__price">{price} ₽</div>

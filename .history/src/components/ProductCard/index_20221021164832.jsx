@@ -18,6 +18,7 @@ function ProductCard({
 
   if (image_url === 'none' || !image_url) {
     image_url = notImage
+    console.log(image_url)
   }
 
   return (

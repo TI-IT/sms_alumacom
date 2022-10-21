@@ -14,7 +14,7 @@ const Products = () => {
   const getProducts = async () => {
     dispatch(fetchProducts())
 
-    // window.scrollTo(0, 0)
+    window.scrollTo(0, 0)
   }
   //Загрузка один раз
   //https://docs.google.com/spreadsheets/d/1_0YvrlfzzMiQbCwgm22-VJnBI-QvFsn3vlLvfPaDiZ0/edit#gid=1701508152
@@ -24,7 +24,6 @@ const Products = () => {
 
   const products = items.map(obj => <ProductCard key={obj.id} {...obj} />)
   const sceletons = [...new Array(6)].map((_, index) => <Skeleton key={index} />)
-
   return (
     <div className="container">
       <div className="content__top">

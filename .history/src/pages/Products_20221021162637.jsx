@@ -24,7 +24,6 @@ const Products = () => {
 
   const products = items.map(obj => <ProductCard key={obj.id} {...obj} />)
   const sceletons = [...new Array(6)].map((_, index) => <Skeleton key={index} />)
-
   return (
     <div className="container">
       <div className="content__top">

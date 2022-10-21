@@ -22,7 +22,7 @@ const Products = () => {
     getProducts()
   }, [])
 
-  const products = items.map(obj => <ProductCard key={obj.id} {...obj} />)
+  const products = items.products.map(obj => <ProductCard key={obj.id} {...obj} />)
   const sceletons = [...new Array(6)].map((_, index) => <Skeleton key={index} />)
 
   return (

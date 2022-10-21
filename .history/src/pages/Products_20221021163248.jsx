@@ -10,7 +10,7 @@ const Products = () => {
   const dispatch = useDispatch()
 
   const { items, status } = useSelector(state => state.products)
-
+  console.log(items, status)
   const getProducts = async () => {
     dispatch(fetchProducts())
 

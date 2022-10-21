@@ -16,15 +16,11 @@ function ProductCard({
   const [activeSize, setActivSize] = React.useState(0)
   const typeNames = ['тонкое', 'традиционное']
 
-  if (image_url === 'none' || !image_url) {
-    image_url = notImage
-  }
-
   return (
     <div className="pizza-block-wrapper">
       <div className="pizza-block">
         <h5 className="">{product_name}</h5>
-        <img className="pizza-block__image" src={image_url} alt="product" />
+        <img className="pizza-block__image" src={image_url ? image_url : notImage} alt="product" />
 
         <div className="pizza-block__selector"></div>
         <div className="pizza-block__bottom">
