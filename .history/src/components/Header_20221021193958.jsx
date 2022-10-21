@@ -59,9 +59,6 @@ function Header() {
           <Link to="/products">
             <button className="header__buttons">Товары</button>
           </Link>
-          <Link to="/offer">
-            <button className="header__buttons">КП</button>
-          </Link>
         </div>
       </div>
     </div>

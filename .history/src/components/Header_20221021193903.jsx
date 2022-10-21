@@ -57,10 +57,7 @@ function Header() {
             <span>{totalCount}</span>
           </Link>
           <Link to="/products">
-            <button className="header__buttons">Товары</button>
-          </Link>
-          <Link to="/offer">
-            <button className="header__buttons">КП</button>
+            <div className="cart__bottom-buttons">Товары</div>
           </Link>
         </div>
       </div>

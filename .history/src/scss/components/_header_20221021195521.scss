@@ -37,8 +37,6 @@
     }
   }
   &__buttons {
-    cursor: pointer;
-    margin-top: 10px;
     background-color: #2a8fae; /* Green */
     border: none;
     color: rgb(255, 255, 255);
@@ -46,6 +44,6 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 13px;
+    font-size: 18px;
   }
 }

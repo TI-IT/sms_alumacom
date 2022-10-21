@@ -56,11 +56,8 @@ function Header() {
             </svg>
             <span>{totalCount}</span>
           </Link>
-          <Link to="/products">
-            <button className="header__buttons">Товары</button>
-          </Link>
-          <Link to="/offer">
-            <button className="header__buttons">КП</button>
+          <Link to="/products" className="categories">
+            <span>{totalCount}</span>
           </Link>
         </div>
       </div>

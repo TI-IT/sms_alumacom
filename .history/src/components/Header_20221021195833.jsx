@@ -60,7 +60,7 @@ function Header() {
             <button className="header__buttons">Товары</button>
           </Link>
           <Link to="/offer">
-            <button className="header__buttons">КП</button>
+            <button className="header__buttons">Заявки</button>
           </Link>
         </div>
       </div>
